@@ -140,8 +140,8 @@ For Textual Pre-processing and Model Building
 
 ## Contact
 
-|[Gmail](mailto:rishikarai70@gmail.com)
-|---|---|
+|[Gmail]|(mailto:rishikarai70@gmail.com)
+|---|
 
 <div align = "right">    
   <a href="#topic-modeling-of-bbc-news-articles">(back to top)</a>
