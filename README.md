@@ -140,7 +140,7 @@ For Textual Pre-processing and Model Building
 
 ## Contact
 
-|[Gmail](mailto:rishikarai70@gmail.com)|[https://www.linkedin.com/in/rishika-rai-058520149/)|
+|[Gmail](mailto:rishikarai70@gmail.com)
 |---|---|
 
 <div align = "right">    
