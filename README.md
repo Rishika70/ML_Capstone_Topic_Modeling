@@ -65,7 +65,7 @@ The LSA model was trained on the pre-processed data using the TruncatedSVD class
 
 ## Model Evaluation
 
-The Log-Likelihood and Perplexity scores were evaluated for each of the models. Since the original category of each article is provided as an input, the metrics of evaluation for a Classification problem - Precision, Recall and F1 Score - are utilised here. F1 Score is given priority because of the equality and non-hierarchy between each topic.
+The Log-Likelihood and Perplexity scores were evaluated for each of the models. Since the original category of each article is provided as input, the metrics of evaluation for a Classification problem - Precision, Recall and F1 Score - are utilized here. F1 Score is given priority because of the equality and non-hierarchy between each topic.
 
 <div align = "right">    
   <a href="#topic-modeling-of-bbc-news-articles">(back to top)</a>
@@ -73,9 +73,9 @@ The Log-Likelihood and Perplexity scores were evaluated for each of the models. 
 
 ## Results
 
-It was found that the LDA models outperformed the LSA models. The LSA model identified primarily only two topics, with it over-predicting on one of them. In contrast, the LDA models identified all the five topics corresponding closely with the original article categories.
+It was found that the LDA models outperformed the LSA models. The LSA model identified primarily only two topics, with it over-predicting on one of them. In contrast, the LDA models identified all five topics corresponding closely with the original article categories.
 
-Comparing the two LDA models, the model with CountVectorized data as the input well outperformed the other model. The model accuracy was close to 93%, with the latter only scoring about 85%. It fared better in the other metrics as well, except in Log-likelihood score.
+Comparing the two LDA models, the model with CountVectorized data as the input well outperformed the other model. The model accuracy was close to 93%, with the latter only scoring about 85%. It fared better in the other metrics as well, except in the Log-likelihood score.
 
 <div align = "right">    
   <a href="#topic-modeling-of-bbc-news-articles">(back to top)</a>
@@ -83,7 +83,7 @@ Comparing the two LDA models, the model with CountVectorized data as the input w
 
 ## Conclusion
 
-Overall, the LDA model with CountVectorizer proved to be a more effective approach to topic modeling of the BBC News articles dataset, producing results which closely corresponded with the original article categories. This project demonstrates the usefulness of topic modeling techniques for understanding large text datasets and the importance of selecting an appropriate algorithm for the task at hand.
+Overall, the LDA model with CountVectorizer proved to be a more effective approach to topic modeling of the BBC News articles dataset, producing results that closely corresponded with the original article categories. This project demonstrates the usefulness of topic modeling techniques for understanding large text datasets and the importance of selecting an appropriate algorithm for the task at hand.
 
 <div align = "right">    
   <a href="#topic-modeling-of-bbc-news-articles">(back to top)</a>
@@ -91,9 +91,9 @@ Overall, the LDA model with CountVectorizer proved to be a more effective approa
 
 ## Challenges Faced
 
-*   The first challenge faced in the project was right at the start: reading the text files to form a consolidated, tabular dataset. It took some bit of searching and reading of documentations to attain the knowledge and apply it to code. Some encoding errors also needed to be tackled in the process.
-*   While pre-processing was mostly a breeze, the choice of vectorization methods for specific models was another challenge. It was (rightly) expected that the CountVectorizer would be suitable for LDA, so the same was considered a Hypothesis which was tested by deploying the LDA on both the Bag-of-Words model and TFIDF Vectorized dataset. The Hypotheses statement finally turned to be true, atleast in this context.
-*   Finally, the choice of evaluation metrics: Apart from Perplexity and Log-Likelihood, another set of metrics were needed which is more interpretable to evaluate the models. So, the metrics usually used for Classification Problems - Precision, Recall and F1 Score, was chosen. It seemed unconventional at first, but proved very fruitful.
+*   The first challenge faced in the project was right at the start: reading the text files to form a consolidated, tabular dataset. It took some bit of searching and reading of documentation to attain the knowledge and apply it to code. Some encoding errors also needed to be tackled in the process.
+*   While pre-processing was mostly a breeze, the choice of vectorization methods for specific models was another challenge. It was (rightly) expected that the CountVectorizer would be suitable for LDA, so the same was considered a Hypothesis which was tested by deploying the LDA on both the Bag-of-Words model and TFIDF Vectorized dataset. The hypothesis statement finally turned out to be true, at least in this context.
+*   Finally, the choice of evaluation metrics: Apart from Perplexity and Log-Likelihood, another set of metrics was needed which is more interpretable to evaluate the models. So, the metrics usually used for Classification Problems - Precision, Recall and F1 Score, was chosen. It seemed unconventional at first, but proved very fruitful.
 
 <div align = "right">    
   <a href="#topic-modeling-of-bbc-news-articles">(back to top)</a>
